@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The MedServ Group — CMO Strategic Blueprint</title>
+<meta name="description" content="The MedServ Group Chief Marketing Officer Strategic Blueprint 2025–2029. On-site specialty care. 450+ facilities. Three specialties. One partner.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Syne:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<style>
+:root{--t:#2DBF8A;--b:#3B7DD8;--g:#E8A83B;--pk:#D45C8C;--v:#7B5CF0;--bg:#03080F;--sf:#081520;--cd:#0C1D2E;--br:#122438;--tx:#EBF4FF;--mu:#6A90B0;--su:#8AAEC8}
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--tx);font-family:'Syne',sans-serif;overflow-x:hidden;min-height:100vh}
+body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;background-image:linear-gradient(rgba(45,191,138,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(45,191,138,.025) 1px,transparent 1px);background-size:52px 52px}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;height:58px;background:rgba(3,8,15,.94);backdrop-filter:blur(20px);border-bottom:1px solid var(--br);display:flex;align-items:center;justify-content:space-between;padding:0 40px;gap:8px}
+.nb{display:flex;align-items:center;gap:12px;cursor:pointer;text-decoration:none}
+.nlogo{width:32px;height:32px;border-radius:7px;background:linear-gradient(135deg,var(--t),var(--b));display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:11px;font-weight:500;color:#fff;flex-shrink:0}
+.nword{font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:700;color:var(--tx)}
+.ntag{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t);letter-spacing:.18em;line-height:1.2}
+.nl{display:flex;gap:2px;flex-wrap:wrap}
+.nl button{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--mu);background:transparent;border:1px solid transparent;padding:6px 11px;border-radius:5px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.nl button:hover{color:var(--tx);border-color:var(--br)}
+.nl button.on{color:var(--t);border-color:rgba(45,191,138,.3);background:rgba(45,191,138,.07)}
+.ncta{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.1em;text-transform:uppercase;background:var(--t);color:#000;font-weight:600;padding:8px 16px;border-radius:6px;border:none;cursor:pointer;transition:all .15s;white-space:nowrap;flex-shrink:0}
+.ncta:hover{background:#35e8a8;transform:translateY(-1px)}
+.pg{display:none;animation:fu .4s ease both}
+.pg.on{display:block}
+@keyframes fu{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.wrap{max-width:1100px;margin:0 auto;padding:52px 40px 80px}
+.ey{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.28em;text-transform:uppercase;color:var(--b);margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.ey::before{content:'';width:18px;height:1px;background:var(--b)}
+h2{font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3.5vw,42px);font-weight:700;color:var(--tx);margin-bottom:10px;line-height:1.1}
+.sub{font-size:13px;color:var(--mu);line-height:1.8;max-width:660px;margin-bottom:32px}
+.card{background:var(--cd);border:1px solid var(--br);border-radius:12px;padding:22px 26px}
+.ctit{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;text-transform:uppercase;margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:12px}
+th{text-align:left;padding:8px 10px;color:var(--mu);font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.08em;border-bottom:1px solid var(--br);font-weight:400}
+td{padding:9px 10px;border-bottom:1px solid #0a1c2d;color:var(--su);vertical-align:top}
+tr:last-child td{border-bottom:none}
+.g2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media(max-width:700px){.g2{grid-template-columns:1fr}}
+/* HERO */
+.hero{position:relative;overflow:hidden;min-height:calc(100vh - 58px);padding-top:58px;display:flex;flex-direction:column;justify-content:center}
+.hero-glow{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 70% 55% at 60% 35%,rgba(59,125,216,.07) 0%,transparent 60%),radial-gradient(ellipse 40% 40% at 20% 70%,rgba(45,191,138,.05) 0%,transparent 55%)}
+.hero-inner{max-width:1100px;margin:0 auto;padding:70px 40px 130px;position:relative;z-index:1;width:100%}
+.hero-tag{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.3em;text-transform:uppercase;color:var(--t);margin-bottom:20px;display:flex;align-items:center;gap:14px}
+.hero-tag::before{content:'';width:44px;height:1px;background:var(--t)}
+.hero-h1{font-family:'Cormorant Garamond',serif;font-size:clamp(44px,7.5vw,90px);font-weight:700;line-height:1.0;letter-spacing:-.025em;color:var(--tx);margin-bottom:8px}
+.hero-h1 span{color:var(--t)}
+.hero-deck{font-family:'Cormorant Garamond',serif;font-size:clamp(16px,2.2vw,22px);font-weight:600;font-style:italic;color:var(--mu);margin-bottom:28px}
+.hero-desc{font-size:14px;color:var(--su);line-height:1.85;max-width:560px;margin-bottom:40px}
+.hero-stats{display:flex;gap:28px;flex-wrap:wrap;margin-bottom:44px}
+.hstat{border-left:2px solid var(--br);padding-left:16px}
+.hstat-v{font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:700;color:var(--tx);line-height:1}
+.hstat-v.acc{color:var(--t)}
+.hstat-l{font-size:10px;color:var(--mu);letter-spacing:.07em;margin-top:3px}
+.hero-btns{display:flex;gap:10px;flex-wrap:wrap}
+.btn-pri{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;background:linear-gradient(90deg,var(--t),var(--b));color:#000;font-weight:600;padding:13px 26px;border-radius:7px;border:none;cursor:pointer;transition:all .2s}
+.btn-pri:hover{transform:translateY(-2px);opacity:.9}
+.btn-ghost{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;background:transparent;color:var(--tx);padding:12px 26px;border-radius:7px;border:1px solid var(--br);cursor:pointer;transition:all .2s}
+.btn-ghost:hover{border-color:var(--b);color:var(--b)}
+.ticker{position:absolute;bottom:0;left:0;right:0;border-top:1px solid var(--br);background:rgba(8,21,32,.9);padding:10px 40px;display:flex;gap:32px;overflow-x:auto;white-space:nowrap}
+.titem{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--mu)}
+.titem strong{color:var(--t)}
+.tsep{color:var(--br)}
+/* COMPANY BLOCK */
+.co-card{background:linear-gradient(135deg,#08203A,#051018);border:1px solid rgba(45,191,138,.3);border-left:4px solid var(--t);border-radius:10px;padding:20px 24px;margin-bottom:24px}
+.co-bdg{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.15em;color:var(--t);background:rgba(45,191,138,.1);border:1px solid rgba(45,191,138,.2);border-radius:3px;padding:2px 8px;display:inline-block;margin-bottom:12px}
+.co-txt{font-size:13px;color:#c5d8e8;line-height:1.9}
+.co-txt strong{color:var(--t);font-weight:600}
+/* RESP CARDS */
+.resp-card{background:var(--sf);border:1px solid var(--br);border-radius:10px;overflow:hidden;margin-bottom:12px}
+.rh{padding:12px 18px;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--br)}
+.ri{font-size:16px}.rn{font-size:13px;font-weight:600;color:var(--tx)}
+.rb{padding:14px 18px;display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:600px){.rb{grid-template-columns:1fr}}
+.rlbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;margin-bottom:5px}
+.rverb{font-size:11px;color:#c5d8e8;line-height:1.7;border-left:2px solid;padding-left:10px;margin:0}
+.rexec{list-style:none;margin:0;padding:0}
+.rexec li{display:flex;gap:6px;font-size:11px;color:var(--su);line-height:1.55;margin-bottom:5px}
+/* METRICS */
+.metgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(155px,1fr));gap:12px;margin-bottom:22px}
+.met{background:var(--cd);border:1px solid var(--br);border-radius:10px;padding:14px 16px;position:relative;overflow:hidden;transition:transform .2s}
+.met:hover{transform:translateY(-2px)}
+.mbar{position:absolute;top:0;left:0;right:0;height:2px}
+.mlbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;color:var(--mu);margin-bottom:7px}
+.mval{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:700;color:var(--tx);margin-bottom:4px;line-height:1}
+.mch{font-size:11px;font-weight:600}
+.msub{font-size:10px;color:var(--mu)}
+/* KPI TILES */
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:14px;margin-bottom:26px}
+.kpi-tile{background:var(--cd);border:1px solid var(--br);border-radius:10px;padding:18px 20px}
+.kpi-lbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.1em;color:var(--mu);margin-bottom:10px}
+.kpi-row{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px}
+.kpi-cur .l{font-size:9px;color:#3a5a78;margin-bottom:2px}.kpi-cur .v{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:700;color:var(--tx)}
+.kpi-tar{text-align:right}.kpi-tar .l{font-size:9px;color:#3a5a78;margin-bottom:2px}.kpi-tar .v{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:700;color:var(--t)}.kpi-tar .u{font-size:9px;color:var(--b)}
+.kbar{background:#071828;border-radius:3px;height:4px;overflow:hidden}.kfill{height:100%;background:linear-gradient(90deg,var(--t),var(--b));border-radius:3px}
+.kpct{font-size:9px;color:#3a5a78;margin-top:4px}
+/* SYNC BAR */
+.sync-bar{background:linear-gradient(90deg,#06182a,#091520);border:1px solid rgba(45,191,138,.2);border-radius:8px;padding:10px 18px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.sdot{width:7px;height:7px;border-radius:50%;background:var(--t);box-shadow:0 0 7px var(--t);animation:pulse 2s infinite;flex-shrink:0}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
+.slbl{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--t);letter-spacing:.1em}
+.ssrc{font-size:10px;color:var(--mu);margin-left:7px}
+.smeta{display:flex;gap:16px;flex-wrap:wrap}
+.si .sl{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--mu);letter-spacing:.07em}
+.si .sv{font-size:11px;font-weight:600;color:var(--tx)}
+/* STRATEGY CARDS */
+.strat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(245px,1fr));gap:16px;margin-bottom:26px}
+.strat-card{background:var(--cd);border:1px solid var(--br);border-radius:12px;padding:22px;transition:transform .2s}
+.strat-card:hover{transform:translateY(-3px)}
+.strat-icon{font-size:24px;margin-bottom:10px}
+.strat-name{font-family:'Cormorant Garamond',serif;font-size:16px;font-weight:700;margin-bottom:14px;color:var(--tx)}
+.strat-items{list-style:none;padding:0;margin:0}
+.strat-items li{font-size:11px;color:var(--su);padding:6px 0;border-bottom:1px solid #0a1c2d;display:flex;gap:7px;line-height:1.55}
+.strat-items li:last-child{border-bottom:none}
+/* CHANNEL CARDS */
+.channel-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(195px,1fr));gap:12px}
+.channel{background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:14px}
+.ch-bdg{font-size:8px;border-radius:3px;padding:2px 7px;letter-spacing:.08em;display:inline-block;margin-bottom:8px}
+.ch-nm{font-size:12px;font-weight:600;color:var(--tx);margin-bottom:4px}
+.ch-desc{font-size:11px;color:var(--mu);line-height:1.55}
+/* QUICK WINS */
+.qwgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.qwc{background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:14px}
+.qwp{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.1em;margin-bottom:9px}
+.qwl{list-style:none;margin:0;padding:0}
+.qwl li{display:flex;gap:6px;font-size:11px;color:var(--su);line-height:1.55;margin-bottom:4px}
+/* PHASE */
+.phase-card{background:var(--cd);border:1px solid var(--br);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.ph{padding:15px 22px;display:flex;align-items:center;gap:14px}
+.pnum{width:34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'JetBrains Mono',monospace;font-size:13px;font-weight:500;flex-shrink:0}
+.ptag{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.14em;margin-bottom:2px}
+.pname{font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:700;color:var(--tx)}
+.pb{padding:15px 22px;display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:9px}
+.ms{display:flex;gap:8px;align-items:flex-start}
+.msdot{width:5px;height:5px;border-radius:50%;margin-top:6px;flex-shrink:0}
+.mstxt{font-size:11.5px;color:var(--su);line-height:1.6}
+/* CONTENT CARDS */
+.content-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.content-c{background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:14px}
+.cc-top{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:8px}
+.cc-icon{font-size:18px}
+.cc-tag{font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t);background:rgba(45,191,138,.08);border:1px solid rgba(45,191,138,.2);border-radius:3px;padding:2px 6px;letter-spacing:.07em}
+.cc-nm{font-size:12px;font-weight:600;color:var(--tx);margin-bottom:4px}
+.cc-desc{font-size:11px;color:var(--mu);line-height:1.55}
+/* ROI */
+.roi-note{font-size:11px;color:var(--su);padding:9px 14px;background:rgba(232,168,59,.05);border:1px solid rgba(232,168,59,.18);border-radius:6px;margin-bottom:14px}
+.roi-note span{color:var(--g)}
+/* THESIS */
+.thesis{background:linear-gradient(135deg,#07223A,#03080F);border:1px solid var(--br);border-radius:12px;padding:28px 34px;text-align:center;margin-top:26px}
+.thlbl{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.2em;color:var(--b);margin-bottom:10px}
+.thq{font-family:'Cormorant Garamond',serif;font-size:clamp(14px,2vw,19px);font-style:italic;color:#c5d8e8;line-height:1.9;max-width:700px;margin:0 auto 12px}
+.thatr{font-size:11px;color:#3a5a78}
+/* TESTIMONIAL */
+.testi{background:var(--sf);border:1px solid var(--br);border-left:3px solid var(--t);border-radius:10px;padding:18px 22px;margin-bottom:14px}
+.testi-text{font-family:'Cormorant Garamond',serif;font-size:14px;font-style:italic;color:#c5d8e8;line-height:1.85;margin-bottom:10px}
+.testi-attr{font-family:'JetBrains Mono',monospace;font-size:9px;color:var(--mu);letter-spacing:.08em}
+/* HIRE */
+.hire-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:12px}
+.hire{background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:14px}
+.hiret{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:7px;gap:6px}
+.hiren{font-size:12px;font-weight:600;color:var(--tx);line-height:1.35}
+.hirew{font-family:'JetBrains Mono',monospace;font-size:7px;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.hired{font-size:11px;color:var(--mu);line-height:1.55}
+/* CAP */
+.cap-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.cap{background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:14px}
+.capl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.08em;margin-bottom:4px}
+.capv{font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--tx);margin-bottom:4px}
+.capd{font-size:11px;color:var(--mu);line-height:1.5}
+/* VALSOURCE */
+.valsource{font-size:9px;color:#3a5a78;border-top:1px solid var(--br);padding-top:9px;margin-top:10px;font-style:italic}
+@media(max-width:900px){.nl{display:none}}
+@media(max-width:600px){.wrap{padding:40px 20px 60px}.hero-inner{padding:50px 20px 110px}}
+</style>
+</head>
+<body>
+
+<nav>
+  <a class="nb" onclick="goPg('home')">
+    <div class="nlogo">MS</div>
+    <div><div class="nword">The MedServ Group</div><div class="ntag">CMO · Strategic Blueprint</div></div>
+  </a>
+  <div class="nl">
+    <button id="nb-home" class="on" onclick="goPg('home')">Home</button>
+    <button id="nb-role" onclick="goPg('role')">The Role</button>
+    <button id="nb-strategy" onclick="goPg('strategy')">Strategy</button>
+    <button id="nb-dash" onclick="goPg('dash')">Dashboard</button>
+    <button id="nb-content" onclick="goPg('content')">Content</button>
+    <button id="nb-brand" onclick="goPg('brand')">Brand</button>
+    <button id="nb-road" onclick="goPg('road')">Roadmap</button>
+  </div>
+  <button class="ncta" onclick="goPg('role')">View Role →</button>
+</nav>
+
+<!-- ═══ HOME ═══ -->
+<div id="pg-home" class="pg on">
+<div class="hero">
+  <div class="hero-glow"></div>
+  <div class="hero-inner">
+    <div class="hero-tag">Chief Marketing Officer · Strategic Blueprint 2025–2029</div>
+    <div class="hero-h1">MedServ<br><span>Marketing</span><br>Blueprint</div>
+    <div class="hero-deck">The Specialist is in. Now the world needs to know.</div>
+    <p class="hero-desc">The MedServ Group delivers on-site optometry, podiatry, and dermatology to 450+ long-term care facilities nationwide. This blueprint charts the CMO's path to building the brand, generating demand, and establishing MedServ as the undisputed leader in on-site specialty care.</p>
+    <div class="hero-stats">
+      <div class="hstat"><div class="hstat-v acc">450+</div><div class="hstat-l">Facilities Served</div></div>
+      <div class="hstat"><div class="hstat-v">3</div><div class="hstat-l">Specialty Lines</div></div>
+      <div class="hstat"><div class="hstat-v">40+</div><div class="hstat-l">Years of Experience</div></div>
+      <div class="hstat"><div class="hstat-v acc">1,000+</div><div class="hstat-l">2029 Facility Target</div></div>
+    </div>
+    <div class="hero-btns">
+      <button class="btn-pri" onclick="goPg('role')">View CMO Role</button>
+      <button class="btn-ghost" onclick="goPg('strategy')">Growth Strategy</button>
+      <button class="btn-ghost" onclick="goPg('dash')">Open Dashboard</button>
+    </div>
+  </div>
+  <div class="ticker">
+    <span class="titem"><strong>450+ Facilities</strong> Nationwide</span>
+    <span class="tsep">·</span>
+    <span class="titem"><strong>Optometry · Podiatry · Dermatology</strong> On-Site</span>
+    <span class="tsep">·</span>
+    <span class="titem"><strong>40+ Years</strong> via DentServ Heritage</span>
+    <span class="tsep">·</span>
+    <span class="titem"><strong>VBP-Aligned</strong> CMS Value-Based Purchasing</span>
+    <span class="tsep">·</span>
+    <span class="titem"><strong>NY + FL</strong> themedservgroup.com</span>
+  </div>
+</div>
+</div>
+
+<!-- ═══ THE ROLE ═══ -->
+<div id="pg-role" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Chief Marketing Officer · Strategic Role Brief</div>
+  <h2>The Mandate: Make MedServ the Name Every Facility Knows</h2>
+  <p class="sub">MedServ has a proven model, loyal clients, and a differentiated offering. The CMO's job is to turn that into a national brand — generating inbound demand from facility administrators, building a content engine, and establishing MedServ as the authority in on-site specialty care.</p>
+
+  <div class="co-card">
+    <div class="co-bdg">COMPANY MISSION — THEMEDSERVGROUP.COM</div>
+    <p class="co-txt">"Every long-term care resident deserves reliable, expert, and compassionate healthcare. That belief inspired us to found The MedServ Group, and it drives us every day." <strong>One partner. Three specialties. Better outcomes.</strong></p>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">CMO Core Qualifications</div>
+    <div id="quals-el"></div>
+  </div>
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">CMO Core Responsibilities</div>
+    <div id="resps-el"></div>
+  </div>
+  <div class="card" style="border-top:2px solid var(--g)">
+    <div class="ctit" style="color:var(--g)">CMO 90-Day Quick Win Plan</div>
+    <div class="qwgrid" id="qw-el"></div>
+  </div>
+
+  <div style="margin-top:26px;background:var(--cd);border:1px solid var(--br);border-radius:12px;padding:22px 26px">
+    <div class="ctit" style="color:var(--t)">Why MedServ — from the Website</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px">
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--t);margin-bottom:5px">Turnkey Support</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Scheduling, staffing, equipment, documentation, billing — fully managed.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--b);margin-bottom:5px">VBP-Driven Outcomes</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Specialty care tied directly to CMS reimbursement measures. Protects and increases Medicare revenue.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--g);margin-bottom:5px">40+ Years Heritage</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Built on DentServ Dental Services — four decades of in-facility care expertise.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--v);margin-bottom:5px">24/7 Access</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Emergency services available around the clock, weekends and holidays.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--pk);margin-bottom:5px">PDPM Aligned</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Clinical quality that makes operational and financial sense for facility partners.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="font-size:11px;font-weight:600;color:var(--t);margin-bottom:5px">Vulnerable Population Expertise</div><p style="font-size:11px;color:var(--mu);line-height:1.55">Specific training in seniors, special needs, and people with disabilities.</p></div>
+    </div>
+  </div>
+
+  <div class="thesis"><div class="thlbl">CMO OPPORTUNITY THESIS</div><p class="thq">"MedServ has the rarest asset in healthcare marketing: a product that genuinely works, clients who love it, and a market that barely knows they exist. The CMO's job is to close that gap — fast."</p><div class="thatr">— Chief Marketing Officer, The MedServ Group · 2025</div></div>
+</div>
+</div>
+
+<!-- ═══ STRATEGY ═══ -->
+<div id="pg-strategy" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Growth Marketing Strategy</div>
+  <h2>Four Vectors to Market Leadership</h2>
+  <p class="sub">MedServ's marketing engine compounds across four coordinated vectors — turning 450 facility relationships and a 40-year heritage into national brand dominance and a scalable inbound demand machine.</p>
+
+  <div class="strat-grid">
+    <div class="strat-card" style="border-top:2px solid var(--t)">
+      <div class="strat-icon" style="color:var(--t)">◆</div>
+      <div class="strat-name">Demand Generation</div>
+      <ul class="strat-items">
+        <li><span style="color:var(--t)">›</span>Build inbound pipeline from facility administrators and DONs</li>
+        <li><span style="color:var(--t)">›</span>LinkedIn ABM targeting SNF/ALF operators by state and size</li>
+        <li><span style="color:var(--t)">›</span>SEO authority: own "on-site specialty care SNF" searches</li>
+        <li><span style="color:var(--t)">›</span>Email nurture sequences for administrator decision-makers</li>
+        <li><span style="color:var(--t)">›</span>Webinar series: VBP, PDPM, and fall prevention outcomes</li>
+      </ul>
+    </div>
+    <div class="strat-card" style="border-top:2px solid var(--b)">
+      <div class="strat-icon" style="color:var(--b)">◈</div>
+      <div class="strat-name">Brand Authority</div>
+      <ul class="strat-items">
+        <li><span style="color:var(--b)">›</span>Position MedServ as the VBP outcomes authority in LTC</li>
+        <li><span style="color:var(--b)">›</span>Publish proprietary outcomes data — readmissions, falls, transfers prevented</li>
+        <li><span style="color:var(--b)">›</span>AHCA/NCAL conference presence and speaking engagements</li>
+        <li><span style="color:var(--b)">›</span>Case studies from Centers Health Care and other marquee clients</li>
+        <li><span style="color:var(--b)">›</span>Industry press: McKnight's, Skilled Nursing News, Provider Magazine</li>
+      </ul>
+    </div>
+    <div class="strat-card" style="border-top:2px solid var(--g)">
+      <div class="strat-icon" style="color:var(--g)">◉</div>
+      <div class="strat-name">Referral & Partnership Marketing</div>
+      <ul class="strat-items">
+        <li><span style="color:var(--g)">›</span>Formalize referral program with existing 450+ facility partners</li>
+        <li><span style="color:var(--g)">›</span>Co-marketing with DentServ — shared facility relationships</li>
+        <li><span style="color:var(--g)">›</span>State LTC association partnerships across all active markets</li>
+        <li><span style="color:var(--g)">›</span>Hospital system discharge coordinator outreach program</li>
+        <li><span style="color:var(--g)">›</span>Medicare Advantage plan co-marketing for preferred vendor status</li>
+      </ul>
+    </div>
+    <div class="strat-card" style="border-top:2px solid var(--pk)">
+      <div class="strat-icon" style="color:var(--pk)">◐</div>
+      <div class="strat-name">Digital & Performance Marketing</div>
+      <ul class="strat-items">
+        <li><span style="color:var(--pk)">›</span>Google Ads: target facility administrators searching for specialty vendors</li>
+        <li><span style="color:var(--pk)">›</span>Retargeting campaigns for website visitors from SNF/ALF domains</li>
+        <li><span style="color:var(--pk)">›</span>LinkedIn Sponsored Content targeting LTC C-suite and DONs</li>
+        <li><span style="color:var(--pk)">›</span>Website conversion optimization — demo/consultation request flow</li>
+        <li><span style="color:var(--pk)">›</span>Marketing automation: HubSpot or Salesforce Marketing Cloud</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">Target Audience Matrix</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Audience</th><th>Title</th><th>Pain Point</th><th>MedServ Message</th><th>Channel</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">Primary Decision Maker</td><td style="color:var(--t)">Administrator / CEO</td><td>Costly transfers, CMS star ratings, reimbursement risk</td><td>Protect your Medicare revenue. Eliminate transfers. One partner, three specialties.</td><td style="font-size:10px">LinkedIn, Email, Events</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Clinical Champion</td><td style="color:var(--t)">DON / Director of Care</td><td>Resident falls, diabetic wounds, medication gaps, staffing burden</td><td>Our specialists catch problems before they become crises — and document everything.</td><td style="font-size:10px">Email, Webinars, Case Studies</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Financial Influencer</td><td style="color:var(--t)">CFO / Finance Director</td><td>VBP withhold recovery, transport costs, PDPM optimization</td><td>CMS withholds 2% — we help you earn it back. And reduce your transport spend.</td><td style="font-size:10px">ROI Reports, Events</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Corporate Buyer</td><td style="color:var(--t)">VP Operations (Multi-site)</td><td>Vendor fragmentation, inconsistent care across facilities</td><td>One contract. One team. Consistent care across every facility in your portfolio.</td><td style="font-size:10px">LinkedIn ABM, Direct Outreach</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Referral Source</td><td style="color:var(--t)">Hospital Discharge Coord.</td><td>Patient placement delays, post-acute care quality</td><td>Facilities with MedServ have better outcomes — faster, safer, documented.</td><td style="font-size:10px">Events, Email, Co-Marketing</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--v);margin-bottom:22px">
+    <div class="ctit" style="color:var(--v)">Competitive Positioning</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Competitor Type</th><th>Their Weakness</th><th>MedServ Differentiator</th><th>Marketing Angle</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">Single-Specialty Vendors</td><td>One service, multiple relationships, fragmented billing</td><td>One partner, three specialties, one contract</td><td>"Stop managing three vendors. Start managing zero."</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Telehealth-Only Providers</td><td>No physical examination, limited diagnostic capability</td><td>On-site care with mobile hospital-grade equipment</td><td>"Residents don't travel to care. Care travels to them."</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Local Independent Practitioners</td><td>No scalability, no admin support, no VBP expertise</td><td>40+ years of LTC expertise, full admin managed</td><td>"We understand long-term care inside and out."</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">In-House Staffing</td><td>Recruitment burden, coverage gaps, equipment costs</td><td>Fully managed, equipment provided, always staffed</td><td>"We come to you. Fully equipped. No headaches."</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--t)">
+    <div class="ctit" style="color:var(--t)">Partnership Marketing Blueprint</div>
+    <div class="channel-grid">
+      <div class="channel"><div class="ch-bdg" style="background:rgba(45,191,138,.12);color:var(--t);border:1px solid rgba(45,191,138,.3)">Co-Marketing</div><div class="ch-nm">DentServ Partnership</div><p class="ch-desc">Leverage the DentServ sister brand's 40-year facility relationships to introduce MedServ to every shared client. Joint case studies and co-branded materials.</p></div>
+      <div class="channel"><div class="ch-bdg" style="background:rgba(59,125,216,.12);color:var(--b);border:1px solid rgba(59,125,216,.3)">Association</div><div class="ch-nm">AHCA / NCAL</div><p class="ch-desc">National and state LTC association sponsorships, speaking slots, and member email campaigns to reach administrators at scale.</p></div>
+      <div class="channel"><div class="ch-bdg" style="background:rgba(232,168,59,.12);color:var(--g);border:1px solid rgba(232,168,59,.3)">Health Systems</div><div class="ch-nm">Hospital Referral Network</div><p class="ch-desc">Co-market with hospital discharge coordinators who refer patients to SNF/ALF facilities. Position MedServ as a quality differentiator for their referral choices.</p></div>
+      <div class="channel"><div class="ch-bdg" style="background:rgba(212,92,140,.12);color:var(--pk);border:1px solid rgba(212,92,140,.3)">Payer</div><div class="ch-nm">Medicare Advantage Plans</div><p class="ch-desc">Co-marketing with MA plans to highlight MedServ's VBP outcomes — shared savings, reduced hospitalizations, and improved STARS ratings for their SNF networks.</p></div>
+      <div class="channel"><div class="ch-bdg" style="background:rgba(123,92,240,.12);color:var(--v);border:1px solid rgba(123,92,240,.3)">Advocacy</div><div class="ch-nm">State DOH Relationships</div><p class="ch-desc">Engage state health departments as a compliance resource. Position MedServ as a DOH survey readiness partner through educational content and workshops.</p></div>
+      <div class="channel"><div class="ch-bdg" style="background:rgba(45,191,138,.12);color:var(--t);border:1px solid rgba(45,191,138,.3)">Client Referral</div><div class="ch-nm">450+ Facility Network</div><p class="ch-desc">Formalize a structured referral program with existing facility partners — incentivized introductions to sister facilities and corporate operator portfolios.</p></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ═══ DASHBOARD ═══ -->
+<div id="pg-dash" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Marketing KPI Dashboard</div>
+  <h2>Performance Command Center</h2>
+  <p class="sub">Every marketing metric tied to a data source. Every spend decision anchored to ROI. The CMO has full visibility — from brand awareness and lead generation to facility acquisition cost and lifetime value.</p>
+
+  <div class="sync-bar">
+    <div style="display:flex;align-items:center;gap:8px"><div class="sdot"></div><span class="slbl">MARKETING DATA: LIVE</span><span class="ssrc">HubSpot · Google Analytics · LinkedIn · Salesforce</span></div>
+    <div class="smeta"><div class="si"><div class="sl">LAST SYNC</div><div class="sv">5 min ago</div></div><div class="si"><div class="sl">CHANNELS TRACKED</div><div class="sv">8 active</div></div><div class="si"><div class="sl">FACILITIES IN PIPELINE</div><div class="sv">450+</div></div></div>
+  </div>
+
+  <div class="metgrid">
+    <div class="met"><div class="mbar" style="background:var(--t)"></div><div class="mlbl">MONTHLY INBOUND LEADS</div><div class="mval">47</div><div class="mch" style="color:var(--t)">Target: 200+</div><div class="msub">facility admins / month</div></div>
+    <div class="met"><div class="mbar" style="background:var(--b)"></div><div class="mlbl">COST PER FACILITY ACQUIRED</div><div class="mval">$1,200</div><div class="mch" style="color:var(--b)">Target: &lt;$800</div><div class="msub">blended CAC</div></div>
+    <div class="met"><div class="mbar" style="background:var(--g)"></div><div class="mlbl">FACILITY LTV</div><div class="mval">$85K+</div><div class="mch" style="color:var(--g)">LTV:CAC ~70×</div><div class="msub">avg annual contract value</div></div>
+    <div class="met"><div class="mbar" style="background:var(--t)"></div><div class="mlbl">WEBSITE CONVERSION RATE</div><div class="mval">1.8%</div><div class="mch" style="color:var(--t)">Target: 4%+</div><div class="msub">visitors → consultation req.</div></div>
+    <div class="met"><div class="mbar" style="background:var(--pk)"></div><div class="mlbl">LINKEDIN FOLLOWER GROWTH</div><div class="mval">+12%</div><div class="mch" style="color:var(--pk)">MoM</div><div class="msub">LTC administrator audience</div></div>
+    <div class="met"><div class="mbar" style="background:var(--v)"></div><div class="mlbl">EMAIL OPEN RATE</div><div class="mval">28%</div><div class="mch" style="color:var(--v)">Industry avg: 22%</div><div class="msub">administrator nurture series</div></div>
+    <div class="met"><div class="mbar" style="background:var(--b)"></div><div class="mlbl">BRAND SEARCH VOLUME</div><div class="mval">+34%</div><div class="mch" style="color:var(--b)">YoY growth</div><div class="msub">"MedServ" + "on-site care"</div></div>
+    <div class="met"><div class="mbar" style="background:var(--t)"></div><div class="mlbl">CONTENT ENGAGEMENT</div><div class="mval">4.2×</div><div class="mch" style="color:var(--t)">vs. industry benchmark</div><div class="msub">avg time on page</div></div>
+  </div>
+
+  <div class="g2" style="margin-bottom:22px">
+    <div class="card" style="border-top:2px solid var(--t)"><div class="ctit" style="color:var(--t)">Monthly Inbound Leads vs. Target</div><div style="position:relative;height:200px"><canvas id="leadChart"></canvas></div></div>
+    <div class="card" style="border-top:2px solid var(--b)"><div class="ctit" style="color:var(--b)">Facility Growth — Actual vs. Target</div><div style="position:relative;height:200px"><canvas id="facChart"></canvas></div></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--g);margin-bottom:22px">
+    <div class="ctit" style="color:var(--g)">Marketing ROI Framework — Every Dollar Justified</div>
+    <div class="roi-note"><span>CMO Standard: </span>No marketing spend approved without a documented CAC target, projected facility acquisition count, and LTV-based ROI calculation. Minimum threshold: 10× ROI on LTV:CAC basis.</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Initiative</th><th>Monthly Spend</th><th>Expected Leads</th><th>Facility Conversions</th><th>ROI (LTV Basis)</th><th>Priority</th></tr></thead><tbody id="roi-el"></tbody></table></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--v)">
+    <div class="ctit" style="color:var(--v)">Full KPI Target Framework — 2025 → 2029</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>KPI</th><th>Category</th><th>Source</th><th>2025</th><th>2027</th><th>2029</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">Active Facilities</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Growth</td><td style="color:#3a5a78;font-size:10px">Salesforce</td><td>450+</td><td>700</td><td style="color:var(--t);font-weight:700">1,000+</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Monthly Inbound Leads</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Demand Gen</td><td style="color:#3a5a78;font-size:10px">HubSpot</td><td>50</td><td>150</td><td style="color:var(--t);font-weight:700">250+</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Cost Per Facility (CAC)</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Efficiency</td><td style="color:#3a5a78;font-size:10px">HubSpot + Finance</td><td>$1,200</td><td>$900</td><td style="color:var(--t);font-weight:700">&lt;$700</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Website Conversion Rate</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Digital</td><td style="color:#3a5a78;font-size:10px">Google Analytics</td><td>1.8%</td><td>3.2%</td><td style="color:var(--t);font-weight:700">5%+</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">LinkedIn Followers (LTC Admin)</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Brand</td><td style="color:#3a5a78;font-size:10px">LinkedIn Analytics</td><td>2,400</td><td>8,000</td><td style="color:var(--t);font-weight:700">18,000+</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Email Nurture Open Rate</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Nurture</td><td style="color:#3a5a78;font-size:10px">HubSpot</td><td>28%</td><td>34%</td><td style="color:var(--t);font-weight:700">40%+</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Brand Organic Search Traffic</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">SEO</td><td style="color:#3a5a78;font-size:10px">Google Search Console</td><td>1,200/mo</td><td>4,500/mo</td><td style="color:var(--t);font-weight:700">12,000/mo</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Case Studies Published</td><td style="color:var(--b);font-family:'JetBrains Mono',monospace;font-size:9px">Content</td><td style="color:#3a5a78;font-size:10px">CMS / HubSpot</td><td>4</td><td>18</td><td style="color:var(--t);font-weight:700">40+</td></tr>
+    </tbody></table></div>
+  </div>
+</div>
+</div>
+
+<!-- ═══ CONTENT ═══ -->
+<div id="pg-content" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Content Marketing Engine</div>
+  <h2>Educate, Earn Trust, Generate Demand</h2>
+  <p class="sub">MedServ's content strategy positions the brand as the authoritative voice on on-site specialty care, VBP outcomes, and LTC resident health — turning educational content into a predictable pipeline of inbound facility leads.</p>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Content Pillars — What MedServ Owns</div>
+    <div class="strat-grid">
+      <div class="strat-card" style="border-top:2px solid var(--t)">
+        <div class="strat-icon" style="color:var(--t)">◆</div>
+        <div class="strat-name">VBP & Reimbursement Intelligence</div>
+        <ul class="strat-items">
+          <li><span style="color:var(--t)">›</span>"How On-Site Care Recovers Your 2% CMS Withhold"</li>
+          <li><span style="color:var(--t)">›</span>Monthly VBP benchmark reports for administrators</li>
+          <li><span style="color:var(--t)">›</span>PDPM optimization guides for specialty documentation</li>
+          <li><span style="color:var(--t)">›</span>Annual State of LTC Reimbursement Report (gated)</li>
+        </ul>
+      </div>
+      <div class="strat-card" style="border-top:2px solid var(--b)">
+        <div class="strat-icon" style="color:var(--b)">◈</div>
+        <div class="strat-name">Clinical Outcomes Data</div>
+        <ul class="strat-items">
+          <li><span style="color:var(--b)">›</span>MedServ Outcomes Report: readmissions, falls, transfers prevented</li>
+          <li><span style="color:var(--b)">›</span>"The ROI of On-Site Podiatry for Diabetic Residents"</li>
+          <li><span style="color:var(--b)">›</span>Glaucoma/macular degeneration early detection impact studies</li>
+          <li><span style="color:var(--b)">›</span>Skin cancer on-site biopsy vs. hospital transfer cost analysis</li>
+        </ul>
+      </div>
+      <div class="strat-card" style="border-top:2px solid var(--g)">
+        <div class="strat-icon" style="color:var(--g)">◉</div>
+        <div class="strat-name">Facility Administrator Guides</div>
+        <ul class="strat-items">
+          <li><span style="color:var(--g)">›</span>"The LTC Administrator's Guide to On-Site Specialty Care"</li>
+          <li><span style="color:var(--g)">›</span>DOH survey prep checklists for specialty care documentation</li>
+          <li><span style="color:var(--g)">›</span>Vendor evaluation framework: what to ask before signing</li>
+          <li><span style="color:var(--g)">›</span>Staff burden reduction playbook for care teams</li>
+        </ul>
+      </div>
+      <div class="strat-card" style="border-top:2px solid var(--pk)">
+        <div class="strat-icon" style="color:var(--pk)">◐</div>
+        <div class="strat-name">Resident & Family Stories</div>
+        <ul class="strat-items">
+          <li><span style="color:var(--pk)">›</span>Video testimonials: residents receiving care in their rooms</li>
+          <li><span style="color:var(--pk)">›</span>"The Burgundy Glasses" — humanizing the brand story</li>
+          <li><span style="color:var(--pk)">›</span>Family satisfaction stories for facility marketing use</li>
+          <li><span style="color:var(--pk)">›</span>Before/after wound care and podiatry outcome photos</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">Content Calendar — Key Assets to Build</div>
+    <div class="content-grid">
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--t)">◆</span><span class="cc-tag">Q3 2025</span></div><div class="cc-nm">Annual Outcomes Report</div><p class="cc-desc">Proprietary data on readmission reduction, falls prevented, and transfers eliminated across MedServ's 450+ facility network. Gated — primary lead gen asset.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--b)">◈</span><span class="cc-tag">Q3 2025</span></div><div class="cc-nm">VBP Recovery Calculator</div><p class="cc-desc">Interactive tool: facility admins enter their Medicare census and see their 2% withhold exposure and how MedServ helps recover it. High-intent lead capture.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--g)">◉</span><span class="cc-tag">Q4 2025</span></div><div class="cc-nm">Centers Health Care Case Study</div><p class="cc-desc">Detailed story from MedServ's marquee client — administrator quotes, outcome metrics, and the "wish they'd offer even more services" moment. Flagship social proof.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--pk)">◐</span><span class="cc-tag">Q4 2025</span></div><div class="cc-nm">Webinar: CMS VBP Update 2026</div><p class="cc-desc">Live webinar for LTC administrators on the upcoming VBP program changes and how on-site specialty care protects reimbursement. Co-hosted with AHCA partner.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--v)">◇</span><span class="cc-tag">Q1 2026</span></div><div class="cc-nm">Telehealth vs. On-Site Guide</div><p class="cc-desc">Definitive comparison guide for administrators evaluating care delivery models. Honest, educational, positions MedServ's on-site model with clinical evidence.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--t)">◆</span><span class="cc-tag">Ongoing</span></div><div class="cc-nm">The MedServ Podcast</div><p class="cc-desc">"Caring Forward" — monthly conversations with LTC administrators, clinicians, and CMS policy experts. Builds brand authority and administrator audience organically.</p></div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Testimonials — Direct from the Website</div>
+    <div class="testi">
+      <p class="testi-text">"The best thing about The MedServ Group — beyond knowing that our staff and patients love their doctors — is that we don't have to think about it! They communicate, ensuring the visit dates work with us, so we know who is coming in and when. Follow-ups are tracked and medication recommendations are double-checked. Wish they would offer even more services!"</p>
+      <div class="testi-attr">ADMINISTRATOR · CENTERS HEALTH CARE</div>
+    </div>
+    <div class="testi">
+      <p class="testi-text">"We used to have another vendor for optometry and podiatry that left much to be desired. Then we were introduced to The MedServ Group, and the difference has been incredible! It is such a pleasure to work with everyone there. Even little things like making sure we have a doctor's updated physical once a year — they beat me to it! Our residents love them and all the different glasses that the optometrists offer — burgundy is a favorite here!"</p>
+      <div class="testi-attr">ADMINISTRATOR · CENTERS HEALTH CARE</div>
+    </div>
+    <div style="margin-top:14px;padding:12px 16px;background:rgba(45,191,138,.06);border:1px solid rgba(45,191,138,.2);border-radius:7px;font-size:11px;color:var(--su)"><span style="color:var(--t)">CMO Action: </span>These two testimonials are marketing gold. Video versions, LinkedIn amplification, case study expansion, and a formal NPS/testimonial capture program across all 450 facilities should be immediate priorities.</div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--pk)">
+    <div class="ctit" style="color:var(--pk)">Channel Strategy & Budget Allocation</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Channel</th><th>Budget %</th><th>Primary Goal</th><th>Target Audience</th><th>Key Metric</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">LinkedIn ABM</td><td style="color:var(--t);font-weight:700">28%</td><td>Facility admin lead gen</td><td>SNF/ALF Administrators, DONs, CFOs</td><td style="font-size:10px">MQLs from target accounts</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Content / SEO</td><td style="color:var(--t);font-weight:700">22%</td><td>Organic brand authority</td><td>Administrators researching on-site care</td><td style="font-size:10px">Organic leads, domain authority</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Email Marketing</td><td style="color:var(--t);font-weight:700">15%</td><td>Nurture & retention</td><td>Existing partners + warm prospects</td><td style="font-size:10px">Open rate, consultation requests</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Events & Conferences</td><td style="color:var(--t);font-weight:700">18%</td><td>Brand presence, relationships</td><td>AHCA/NCAL, state LTC associations</td><td style="font-size:10px">Meetings booked, new facility pipeline</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Paid Search (Google)</td><td style="color:var(--t);font-weight:700">12%</td><td>Bottom-funnel capture</td><td>Active searchers: "on-site podiatry SNF"</td><td style="font-size:10px">Demo requests, CPL</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">PR & Industry Media</td><td style="color:var(--t);font-weight:700">5%</td><td>Earned media, authority</td><td>McKnight's, Skilled Nursing News</td><td style="font-size:10px">Mentions, backlinks, share of voice</td></tr>
+    </tbody></table></div>
+  </div>
+</div>
+</div>
+
+<!-- ═══ BRAND ═══ -->
+<div id="pg-brand" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Brand Strategy</div>
+  <h2>Building the Brand That LTC Can't Ignore</h2>
+  <p class="sub">MedServ's brand sits at the intersection of clinical excellence and operational simplicity. The CMO must translate "The Specialist is in" from a tagline into a nationally recognized promise — felt by every administrator, trusted by every clinician, loved by every resident.</p>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Brand Architecture — From the Website</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px">
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:16px;border-top:2px solid var(--t)">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:700;color:var(--t);margin-bottom:6px">"The Specialist is in."</div>
+        <p style="font-size:11px;color:var(--mu);line-height:1.6">The brand's core promise — expert specialty care, delivered on-site, without disruption to residents or staff. This line does everything right: it's memorable, differentiating, and emotionally resonant.</p>
+        <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t);letter-spacing:.1em">KEEP · AMPLIFY · OWN</div>
+      </div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:16px;border-top:2px solid var(--b)">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:700;color:var(--b);margin-bottom:6px">"One partner. Three specialties."</div>
+        <p style="font-size:11px;color:var(--mu);line-height:1.6">The operational differentiator — simplicity for administrators. One contract, one relationship, one team. The CMO must make this the default expectation in every competitive evaluation.</p>
+        <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--b);letter-spacing:.1em">CORE DIFFERENTIATOR</div>
+      </div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:9px;padding:16px;border-top:2px solid var(--g)">
+        <div style="font-family:'Cormorant Garamond',serif;font-size:18px;font-weight:700;color:var(--g);margin-bottom:6px">"Better outcomes."</div>
+        <p style="font-size:11px;color:var(--mu);line-height:1.6">The clinical proof point — aligned to CMS VBP, PDPM, and resident quality. Must be backed by published outcomes data. The CMO turns this from a claim into a credential.</p>
+        <div style="margin-top:10px;font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--g);letter-spacing:.1em">DATA-BACKED PROOF</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">Brand Voice & Messaging Framework</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Voice Attribute</th><th>What It Means</th><th>Example Message</th><th>What to Avoid</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">Confident, Not Boastful</td><td>We know what we do works. We let outcomes speak.</td><td>"Our clients see fewer falls. That's not a claim — it's a documented outcome."</td><td style="font-size:10px">Superlatives without proof ("best in class")</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Warm & Human</td><td>We treat residents, not patients. Care is personal.</td><td>"Our residents don't just get glasses. They get burgundy ones."</td><td style="font-size:10px">Clinical jargon without human context</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Operationally Sharp</td><td>Administrators are busy. We make their lives easier.</td><td>"We come, we treat, we document. You don't have to think about it."</td><td style="font-size:10px">Complexity, long explanations of process</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Financially Fluent</td><td>We speak the language of VBP, PDPM, and reimbursement.</td><td>"CMS withholds 2%. We help you earn it back — and then some."</td><td style="font-size:10px">Vague ROI claims without specifics</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--g);margin-bottom:22px">
+    <div class="ctit" style="color:var(--g)">CMO Marketing Team — Build Plan</div>
+    <div class="hire-grid">
+      <div class="hire"><div class="hiret"><div class="hiren">VP / Director of Demand Gen</div><div class="hirew" style="color:var(--t);background:rgba(45,191,138,.12);border:1px solid rgba(45,191,138,.3)">Hire #1</div></div><p class="hired">Owns inbound lead pipeline. HubSpot power user. B2B healthcare experience. LinkedIn ABM and paid search expertise.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Content Strategist / Writer</div><div class="hirew" style="color:var(--b);background:rgba(59,125,216,.12);border:1px solid rgba(59,125,216,.3)">Hire #2</div></div><p class="hired">Healthcare content writer with LTC knowledge. Produces case studies, guides, email sequences, and thought leadership. SEO fluent.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Brand & Digital Designer</div><div class="hirew" style="color:var(--g);background:rgba(232,168,59,.12);border:1px solid rgba(232,168,59,.3)">Hire #3</div></div><p class="hired">Visual brand steward. Owns website, social graphics, sales collateral, and event materials. Healthcare aesthetic sensibility.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Marketing Ops / Analytics</div><div class="hirew" style="color:var(--pk);background:rgba(212,92,140,.12);border:1px solid rgba(212,92,140,.3)">Hire #4</div></div><p class="hired">CRM and marketing automation administrator. Builds dashboards, tracks attribution, manages lead scoring, and owns reporting to CMO and CEO.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">PR / Communications</div><div class="hirew" style="color:var(--v);background:rgba(123,92,240,.12);border:1px solid rgba(123,92,240,.3)">Year 2</div></div><p class="hired">LTC and healthcare media relationships. McKnight's, Skilled Nursing News, Provider Magazine. Thought leadership placement and award submissions.</p></div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--v)">
+    <div class="ctit" style="color:var(--v)">Marketing Budget Framework — Year 1</div>
+    <div class="cap-grid">
+      <div class="cap"><div class="capl" style="color:var(--t)">DIGITAL & PAID MEDIA</div><div class="capv">$180K–$240K</div><p class="capd">LinkedIn ABM, Google Ads, retargeting, SEO tools and agency</p></div>
+      <div class="cap"><div class="capl" style="color:var(--b)">CONTENT PRODUCTION</div><div class="capv">$120K–$160K</div><p class="capd">Case studies, reports, webinars, podcast, video testimonials</p></div>
+      <div class="cap"><div class="capl" style="color:var(--g)">EVENTS & CONFERENCES</div><div class="capv">$150K–$200K</div><p class="capd">AHCA/NCAL, state LTC associations, sponsorships, speaking</p></div>
+      <div class="cap"><div class="capl" style="color:var(--pk)">TEAM & TOOLS</div><div class="capv">$400K–$600K</div><p class="capd">4 marketing team hires + HubSpot, design tools, CRM integration</p></div>
+      <div class="cap"><div class="capl" style="color:var(--v)">PR & EARNED MEDIA</div><div class="capv">$60K–$80K</div><p class="capd">PR agency retainer, award submissions, industry media placements</p></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ═══ ROADMAP ═══ -->
+<div id="pg-road" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Strategic Roadmap</div>
+  <h2>Three-Phase Execution Plan</h2>
+  <p class="sub">Built on MedServ's 450-facility foundation and 40-year heritage, this roadmap phases marketing growth from brand infrastructure through national demand leadership — quality-first, data-driven, and tied to facility growth targets.</p>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Facility Growth Trajectory — 2025–2029</div>
+    <div style="position:relative;height:200px"><canvas id="roadChart"></canvas></div>
+  </div>
+
+  <div class="phase-card"><div class="ph" style="background:linear-gradient(90deg,rgba(45,191,138,.1),transparent);border-bottom:1px solid rgba(45,191,138,.2)"><div class="pnum" style="background:rgba(45,191,138,.12);border:2px solid var(--t);color:var(--t)">1</div><div><div class="ptag" style="color:var(--t)">Phase I · 2025–2026</div><div class="pname">Brand Infrastructure</div></div></div><div class="pb"><div class="ms"><div class="msdot" style="background:var(--t)"></div><div class="mstxt">Launch HubSpot CRM — full marketing attribution from first touch to signed facility</div></div><div class="ms"><div class="msdot" style="background:var(--t)"></div><div class="mstxt">Publish Annual Outcomes Report — first proprietary data asset</div></div><div class="ms"><div class="msdot" style="background:var(--t)"></div><div class="mstxt">Redesign website with conversion optimization and administrator persona flows</div></div><div class="ms"><div class="msdot" style="background:var(--t)"></div><div class="mstxt">Centers Health Care video case study — flagship social proof asset</div></div><div class="ms"><div class="msdot" style="background:var(--t)"></div><div class="mstxt">AHCA/NCAL national conference presence and speaking submission</div></div></div></div>
+
+  <div class="phase-card"><div class="ph" style="background:linear-gradient(90deg,rgba(59,125,216,.1),transparent);border-bottom:1px solid rgba(59,125,216,.2)"><div class="pnum" style="background:rgba(59,125,216,.12);border:2px solid var(--b);color:var(--b)">2</div><div><div class="ptag" style="color:var(--b)">Phase II · 2026–2027</div><div class="pname">Demand Acceleration</div></div></div><div class="pb"><div class="ms"><div class="msdot" style="background:var(--b)"></div><div class="mstxt">LinkedIn ABM campaign generating 150+ monthly administrator leads</div></div><div class="ms"><div class="msdot" style="background:var(--b)"></div><div class="mstxt">Launch "Caring Forward" podcast — LTC administrator audience growth</div></div><div class="ms"><div class="msdot" style="background:var(--b)"></div><div class="mstxt">Formalize referral program across all 600+ facility partners</div></div><div class="ms"><div class="msdot" style="background:var(--b)"></div><div class="mstxt">VBP Recovery Calculator — interactive lead gen tool live on website</div></div><div class="ms"><div class="msdot" style="background:var(--b)"></div><div class="mstxt">Target 700 active facilities and $8M+ in marketing-attributed new ARR</div></div></div></div>
+
+  <div class="phase-card" style="margin-bottom:22px"><div class="ph" style="background:linear-gradient(90deg,rgba(212,92,140,.1),transparent);border-bottom:1px solid rgba(212,92,140,.2)"><div class="pnum" style="background:rgba(212,92,140,.12);border:2px solid var(--pk);color:var(--pk)">3</div><div><div class="ptag" style="color:var(--pk)">Phase III · 2027–2029</div><div class="pname">National Brand Leadership</div></div></div><div class="pb"><div class="ms"><div class="msdot" style="background:var(--pk)"></div><div class="mstxt">MedServ recognized as the #1 brand in on-site LTC specialty care nationally</div></div><div class="ms"><div class="msdot" style="background:var(--pk)"></div><div class="mstxt">1,000+ facilities — marketing drives 40%+ of new facility pipeline</div></div><div class="ms"><div class="msdot" style="background:var(--pk)"></div><div class="mstxt">MedServ Analytics™ outcomes platform licensed or co-branded externally</div></div><div class="ms"><div class="msdot" style="background:var(--pk)"></div><div class="mstxt">Annual LTC Specialty Care Summit — MedServ-hosted industry event</div></div><div class="ms"><div class="msdot" style="background:var(--pk)"></div><div class="mstxt">250+ monthly inbound leads, CAC below $700, LTV:CAC above 120×</div></div></div></div>
+
+  <div class="card" style="border-top:2px solid var(--v);margin-bottom:22px">
+    <div class="ctit" style="color:var(--v)">CMO 90-Day Quick Wins</div>
+    <div class="qwgrid" id="road-qw-el"></div>
+  </div>
+
+  <div class="thesis"><div class="thlbl">CMO MARKETING THESIS</div><p class="thq">"The MedServ Group has something most healthcare companies never achieve: clients who don't just renew — they wish we offered more. The CMO's job is to take that love and turn it into the most trusted brand name in long-term care specialty services."</p><div class="thatr">— Chief Marketing Officer, The MedServ Group · 2025</div></div>
+</div>
+</div>
+
+<script>
+var CB={};
+function goPg(id){
+  document.querySelectorAll('.pg').forEach(function(p){p.classList.remove('on')});
+  document.querySelectorAll('nav .nl button').forEach(function(b){b.classList.remove('on')});
+  var pg=document.getElementById('pg-'+id);
+  if(pg)pg.classList.add('on');
+  var nb=document.getElementById('nb-'+id);
+  if(nb)nb.classList.add('on');
+  window.scrollTo(0,0);
+  if(id==='dash'&&!CB.dash)buildDash();
+  if(id==='road'&&!CB.road)buildRoad();
+}
+
+var quals=[
+  {icon:'◆',c:'#2DBF8A',q:'Healthcare B2B Marketing Leadership',v:'Extensive experience marketing clinical services, specialty care, or healthcare SaaS products to facility administrators, DONs, and LTC operators.',ctx:"MedServ serves 450+ SNF, ALF, nursing home, and residential care facilities. The CMO must speak the language of the administrator — VBP, PDPM, CMS star ratings, and reimbursement risk."},
+  {icon:'◈',c:'#3B7DD8',q:'Demand Generation & Pipeline Ownership',v:'Proven track record of building inbound lead pipelines, marketing attribution systems, and CRM-connected demand generation programs.',ctx:"MedServ's current growth is largely relationship-driven. The CMO builds the marketing infrastructure — HubSpot, LinkedIn ABM, SEO, content — that creates a predictable inbound pipeline alongside the sales team."},
+  {icon:'◉',c:'#E8A83B',q:'Brand Building & Content Strategy',v:'Experience developing brand positioning, content marketing programs, and thought leadership that builds category authority in a niche B2B market.',ctx:"The MedServ brand is trusted by 450+ facilities but largely unknown nationally. The CMO turns 'The Specialist is in' into the most recognized tagline in LTC specialty care."}
+];
+var resps=[
+  {icon:'◆',c:'#2DBF8A',nm:'Own the MedServ Brand & Market Positioning',v:'Define and steward MedServ\'s national brand identity, messaging architecture, and competitive positioning in the on-site specialty care market.',exec:["Translate 'The Specialist is in' into a nationally recognized brand promise backed by outcomes data","Develop messaging for each specialty line (optometry, podiatry, dermatology) and for TeleVisits","Own all external-facing communications: website, collateral, press, social, events","Position MedServ as the VBP outcomes authority — the brand facilities trust to protect reimbursement"]},
+  {icon:'◈',c:'#3B7DD8',nm:'Build the Inbound Demand Generation Engine',v:'Design and execute a multi-channel demand generation program that drives qualified inbound leads from facility administrators and corporate LTC operators.',exec:["Launch LinkedIn ABM targeting SNF/ALF administrators, DONs, and CFOs across all active states","Build SEO authority for high-intent search terms: 'on-site specialty care', 'SNF optometry vendor'","Deploy HubSpot marketing automation with persona-based email nurture sequences","Create gated content assets (Outcomes Report, VBP Calculator) to capture and qualify leads"]},
+  {icon:'◉',c:'#E8A83B',nm:'Drive Content Marketing & Thought Leadership',v:'Build a content engine that educates facility administrators, builds brand trust, and generates organic demand through educational and outcomes-focused content.',exec:["Publish annual MedServ Outcomes Report with proprietary data on readmissions, falls, and transfers prevented","Develop case studies, webinars, and guides for the administrator decision-making journey","Launch 'Caring Forward' podcast with LTC administrators and clinical leaders","Own McKnight's, Skilled Nursing News, and Provider Magazine earned media relationships"]},
+  {icon:'◇',c:'#7B5CF0',nm:'Measure, Optimize & Report Marketing ROI',v:'Build a marketing analytics infrastructure that ties every spend dollar to facility acquisitions, revenue, and LTV — reporting directly to the CEO.',exec:["Implement full-funnel attribution from first touch (content/ad) to signed facility contract","Build CMO dashboard: CAC, LTV:CAC, pipeline contribution, channel ROI, brand search volume","Establish quarterly marketing reviews with CEO and sales leadership","Set and hit MQL targets that directly support the sales team's facility acquisition goals"]}
+];
+var qwins=[
+  {period:'Days 1–30',c:'#2DBF8A',items:["Audit current website, content, and lead capture — identify top 3 conversion improvements","Interview 10 facility administrators: how did they find MedServ? What almost stopped them?","Map the full prospect-to-facility journey and identify all marketing touchpoints","Inventory all existing content, case studies, and testimonials — especially Centers Health Care"]},
+  {period:'Days 31–60',c:'#3B7DD8',items:["Launch HubSpot CRM — connect website, LinkedIn, and Google to one attribution system","Begin Centers Health Care video case study production","Set up LinkedIn Company Page for consistent posting to LTC administrator audience","Submit AHCA/NCAL speaking proposal for next national conference"]},
+  {period:'Days 61–90',c:'#E8A83B',items:["Publish first piece of gated content — VBP guide or outcomes snapshot — with lead capture","Launch first LinkedIn ABM campaign targeting 500 SNF/ALF administrators in top 5 states","Present 12-month marketing plan, budget, and KPI targets to CEO","Hire Content Strategist and Demand Gen Manager — first two marketing team members"]}
+];
+var roadQwins=[
+  {period:'Days 1–30',c:'#2DBF8A',items:["Audit website, content, and all lead capture mechanisms","Interview 10 facility administrators on their MedServ discovery journey","Map prospect-to-facility journey and all marketing touchpoints","Review all existing testimonials and case study opportunities"]},
+  {period:'Days 31–60',c:'#3B7DD8',items:["Launch HubSpot with full attribution — website, LinkedIn, Google","Begin Centers Health Care video case study production","Submit AHCA/NCAL national conference speaking proposal","Set up LinkedIn Company Page with consistent administrator content calendar"]},
+  {period:'Days 61–90',c:'#E8A83B',items:["Publish first gated content asset with lead capture form","Launch first LinkedIn ABM campaign: 500 SNF/ALF admins in top 5 states","Present 12-month marketing plan and budget to CEO","Make first two marketing hires: Demand Gen Manager + Content Strategist"]}
+];
+var roiD=[
+  {d:'LinkedIn ABM Campaign',c:'$8K/mo',i:'18–25 admin leads',f:'2–3 facilities/mo',r:'~$170K–$255K ARR',pr:'HIGH'},
+  {d:'HubSpot Marketing Automation',c:'$3K/mo',i:'Pipeline tracking',f:'Attribution clarity',r:'15% pipeline lift',pr:'HIGH'},
+  {d:'Annual Outcomes Report',c:'$15K one-time',i:'Gated: 200+ leads',f:'6–10 facilities',r:'$510K–$850K ARR',pr:'HIGH'},
+  {d:'VBP Recovery Calculator',c:'$8K build',i:'High-intent leads',f:'4–8 facilities',r:'$340K–$680K ARR',pr:'HIGH'},
+  {d:'AHCA/NCAL Conference',c:'$25K/event',i:'50+ meetings',f:'5–10 facilities',r:'$425K–$850K ARR',pr:'HIGH'},
+  {d:'SEO / Content Program',c:'$6K/mo',i:'Organic: 100+/mo',f:'3–5 facilities/mo',r:'Compounding ROI',pr:'MEDIUM'},
+  {d:'Centers Health Care Case Study',c:'$5K production',i:'Top sales asset',f:'Accelerates all deals',r:'Deal cycle –20%',pr:'HIGH'}
+];
+
+function h(s){return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')}
+
+(function(){
+  var el=document.getElementById('quals-el');
+  quals.forEach(function(q){el.innerHTML+='<div class="resp-card"><div class="rh" style="background:'+q.c+'14;border-color:'+q.c+'30"><div class="ri" style="color:'+q.c+'">'+q.icon+'</div><div class="rn">'+q.q+'</div></div><div class="rb"><div><div class="rlbl" style="color:'+q.c+'">CMO QUALIFICATION</div><p class="rverb" style="border-color:'+q.c+'">'+q.v+'</p></div><div><div class="rlbl" style="color:#6A90B0">WHAT THIS MEANS AT MEDSERV</div><p style="font-size:11px;color:#8AAEC8;line-height:1.7">'+q.ctx+'</p></div></div></div>';});
+})();
+(function(){
+  var el=document.getElementById('resps-el');
+  resps.forEach(function(r){var li=r.exec.map(function(x){return '<li><span style="color:'+r.c+'">›</span>'+h(x)+'</li>';}).join('');el.innerHTML+='<div class="resp-card" style="margin-bottom:12px"><div class="rh" style="background:'+r.c+'14;border-color:'+r.c+'30"><div class="ri" style="color:'+r.c+'">'+r.icon+'</div><div class="rn">'+r.nm+'</div></div><div class="rb"><div><div class="rlbl" style="color:'+r.c+'">RESPONSIBILITY</div><p class="rverb" style="border-color:'+r.c+'">'+r.v+'</p></div><div><div class="rlbl" style="color:#6A90B0">HOW WE EXECUTE AT MEDSERV</div><ul class="rexec">'+li+'</ul></div></div></div>';});
+})();
+function buildQW(data,elId){
+  var el=document.getElementById(elId);
+  if(!el)return;
+  data.forEach(function(q){var li=q.items.map(function(x){return '<li><span style="color:'+q.c+'">›</span>'+h(x)+'</li>';}).join('');el.innerHTML+='<div class="qwc" style="border-top:2px solid '+q.c+'"><div class="qwp" style="color:'+q.c+'">'+q.period+'</div><ul class="qwl">'+li+'</ul></div>';});
+}
+buildQW(qwins,'qw-el');
+buildQW(roadQwins,'road-qw-el');
+
+(function(){
+  var tb=document.getElementById('roi-el');
+  roiD.forEach(function(r){var bs=r.pr==='HIGH'?'background:rgba(45,191,138,.1);border:1px solid rgba(45,191,138,.35);color:#2DBF8A':'background:rgba(59,125,216,.1);border:1px solid rgba(59,125,216,.35);color:#3B7DD8';tb.innerHTML+='<tr><td style="font-weight:600;color:#EBF4FF">'+r.d+'</td><td>'+r.c+'</td><td style="color:#8AAEC8">'+r.i+'</td><td style="color:#8AAEC8">'+r.f+'</td><td style="color:#E8A83B;font-weight:700">'+r.r+'</td><td><span style="font-family:\'JetBrains Mono\',monospace;font-size:8px;letter-spacing:.07em;border-radius:4px;padding:3px 8px;'+bs+'">'+r.pr+'</span></td></tr>';});
+})();
+
+function buildDash(){
+  CB.dash=true;
+  var grid={color:'rgba(18,36,56,.8)',drawBorder:false};
+  var ticks={color:'#6A90B0',font:{size:10}};
+  new Chart(document.getElementById('leadChart'),{type:'line',data:{labels:['Nov','Dec','Jan','Feb','Mar','Apr'],datasets:[{label:'Inbound Leads',data:[28,35,42,47,55,62],borderColor:'#2DBF8A',backgroundColor:'rgba(45,191,138,.1)',fill:true,tension:.4,pointBackgroundColor:'#2DBF8A',pointRadius:4},{label:'Target',data:[40,50,60,70,80,90],borderColor:'#3B7DD8',borderDash:[5,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#6A90B0',font:{size:10},boxWidth:10}}},scales:{x:{grid:grid,ticks:ticks},y:{grid:grid,ticks:ticks}}}});
+  new Chart(document.getElementById('facChart'),{type:'bar',data:{labels:['2025','2026','2027','2028','2029'],datasets:[{label:'Actual / Projected',data:[450,560,700,850,1000],backgroundColor:'#2DBF8A',borderRadius:4},{label:'Target',data:[450,580,720,880,1050],backgroundColor:'rgba(59,125,216,.4)',borderRadius:4}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#6A90B0',font:{size:10},boxWidth:10}}},scales:{x:{grid:grid,ticks:ticks},y:{grid:grid,ticks:ticks}}}});
+}
+function buildRoad(){
+  CB.road=true;
+  var grid={color:'rgba(18,36,56,.8)',drawBorder:false};
+  var ticks={color:'#6A90B0',font:{size:10}};
+  new Chart(document.getElementById('roadChart'),{type:'line',data:{labels:['2025','2026','2027','2028','2029'],datasets:[{label:'Active Facilities',data:[450,560,700,850,1000],borderColor:'#2DBF8A',backgroundColor:'rgba(45,191,138,.1)',fill:true,tension:.4,pointBackgroundColor:'#2DBF8A',pointRadius:5,pointHoverRadius:8},{label:'Target',data:[450,580,720,880,1050],borderColor:'#3B7DD8',borderDash:[5,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#6A90B0',font:{size:10},boxWidth:10}}},scales:{x:{grid:grid,ticks:ticks},y:{grid:grid,ticks:ticks}}}});
+}
+</script>
+</body>
+</html>
