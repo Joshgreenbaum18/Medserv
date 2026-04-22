@@ -173,6 +173,54 @@ tr:last-child td{border-bottom:none}
 .capd{font-size:11px;color:var(--mu);line-height:1.5}
 /* VALSOURCE */
 .valsource{font-size:9px;color:#3a5a78;border-top:1px solid var(--br);padding-top:9px;margin-top:10px;font-style:italic}
+.org-row{background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:12px 16px;margin-bottom:10px;display:grid;grid-template-columns:200px 1fr 185px;gap:14px;align-items:center}
+@media(max-width:750px){.org-row{grid-template-columns:1fr}}
+.orole{font-size:12px;font-weight:600;color:var(--tx);margin-bottom:2px}
+.orep{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.07em}
+.oscope{font-size:11px;color:var(--su);line-height:1.55}
+.okpi{border-radius:6px;padding:8px 11px}
+.okl{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:.07em;margin-bottom:2px}
+.okv{font-size:10px;color:#c5d8e8;line-height:1.45}
+.pulse-bar{background:linear-gradient(90deg,#06182a,#091520);border:1px solid rgba(232,168,59,.2);border-radius:8px;padding:10px 18px;margin-bottom:20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.pdot{width:7px;height:7px;border-radius:50%;background:var(--g);box-shadow:0 0 7px var(--g);animation:pulse 2s infinite;flex-shrink:0}
+.plbl{font-family:'JetBrains Mono',monospace;font-size:10px;color:var(--g);letter-spacing:.1em}
+.pstats{display:flex;flex-wrap:wrap}
+.pi{border-left:1px solid var(--br);padding:0 12px}
+.pi .pl{font-family:'JetBrains Mono',monospace;font-size:7px;color:var(--mu);letter-spacing:.07em}
+.pi .pv{font-size:10px;color:#c5d8e8;margin-top:1px}
+.deal-card{background:var(--sf);border:1px solid var(--br);border-radius:10px;overflow:hidden;margin-bottom:14px;transition:border-color .2s}
+.deal-card:hover{border-color:var(--b)}
+.dh{padding:12px 18px;display:flex;justify-content:space-between;align-items:flex-start;border-bottom:1px solid var(--br);flex-wrap:wrap;gap:8px}
+.dn{font-size:13px;font-weight:600;color:var(--tx)}
+.dt{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.08em;margin-top:3px}
+.dmeta{display:flex;gap:8px;flex-wrap:wrap}
+.dchip{background:var(--cd);border:1px solid var(--br);border-radius:5px;padding:5px 9px;text-align:center;min-width:80px}
+.dcl{font-family:'JetBrains Mono',monospace;font-size:7px;letter-spacing:.07em;color:var(--mu);margin-bottom:2px}
+.dcv{font-size:10px;font-weight:600;color:var(--tx)}
+.db{padding:12px 18px;display:grid;grid-template-columns:2fr 1fr;gap:14px}
+@media(max-width:600px){.db{grid-template-columns:1fr}}
+.dilbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.08em;color:var(--mu);margin-bottom:5px}
+.ditxt{font-size:11px;color:var(--su);line-height:1.65}
+.dsrc{font-size:9px;color:#3a5a78;font-style:italic;margin-top:5px}
+.droilbl{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.08em;color:var(--g);margin-bottom:5px}
+.watching{background:var(--sf);border:1px solid var(--br);border-radius:10px;padding:14px;transition:border-color .2s}
+.watching:hover{border-color:var(--b)}
+.wt{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;gap:6px}
+.wn{font-size:12px;font-weight:600;color:var(--tx);line-height:1.4}
+.wu{font-family:'JetBrains Mono',monospace;font-size:7px;padding:2px 6px;border-radius:3px;white-space:nowrap}
+.wsz{font-family:'JetBrains Mono',monospace;font-size:8px;letter-spacing:.07em;margin-bottom:7px}
+.wsig{font-size:10px;color:var(--mu);line-height:1.6;margin-bottom:6px}
+.wsig span{color:#3a5a78}
+.wwhy{font-size:10px;color:#c5d8e8;line-height:1.6;border-top:1px solid var(--br);padding-top:7px}
+.wwhy span{color:var(--g)}
+.action-dark{background:linear-gradient(135deg,#07223A,#03080F);border:1px solid var(--br);border-radius:12px;padding:22px 26px}
+.albl{font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;color:var(--g);margin-bottom:14px}
+.agrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.acard{background:var(--cd);border:1px solid var(--br);border-radius:8px;padding:12px 14px}
+.atop{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:6px;gap:6px}
+.anm{font-size:11px;font-weight:600;color:var(--tx);line-height:1.35}
+.adu{font-family:'JetBrains Mono',monospace;font-size:9px}
+.adsc{font-size:10px;color:var(--mu);line-height:1.55}
 @media(max-width:900px){.nl{display:none}}
 @media(max-width:600px){.wrap{padding:40px 20px 60px}.hero-inner{padding:50px 20px 110px}}
 </style>
@@ -189,6 +237,8 @@ tr:last-child td{border-bottom:none}
     <button id="nb-role" onclick="goPg('role')">The Role</button>
     <button id="nb-strategy" onclick="goPg('strategy')">Strategy</button>
     <button id="nb-dash" onclick="goPg('dash')">Dashboard</button>
+    <button id="nb-sales" onclick="goPg('sales')">Sales Team</button>
+    <button id="nb-acq" onclick="goPg('acq')">Live M&amp;A</button>
     <button id="nb-content" onclick="goPg('content')">Content</button>
     <button id="nb-brand" onclick="goPg('brand')">Brand</button>
     <button id="nb-road" onclick="goPg('road')">Roadmap</button>
@@ -565,6 +615,128 @@ tr:last-child td{border-bottom:none}
 </div>
 </div>
 
+<!-- ═══ SALES TEAM ═══ -->
+<div id="pg-sales" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Sales Team Leadership</div>
+  <h2>Build, Inspire, Measure &amp; Grow the Sales Org</h2>
+  <p class="sub">The CMO's closest partner — and most important relationship. MedServ's sales team converts marketing-generated leads into signed facility contracts. The CMO owns the pipeline, the messaging, and the tools that make every rep more effective.</p>
+
+  <div class="co-card" style="border-left-color:var(--v);border-color:rgba(123,92,240,.35)">
+    <div class="co-bdg" style="color:var(--v);background:rgba(123,92,240,.1);border-color:rgba(123,92,240,.22)">CMO × SALES ALIGNMENT MANDATE</div>
+    <p class="co-txt" style="font-style:normal">Marketing does not end at the lead. The CMO owns <strong style="color:var(--v)">the entire revenue funnel</strong> — from first impression to signed contract. That means building the tools, content, and data infrastructure that make every sales rep faster, sharper, and more credible in front of facility administrators.</p>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--v);margin-bottom:22px">
+    <div class="ctit" style="color:var(--v)">Sales Organization Structure — Target State</div>
+    <div id="sales-org-el"></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Sales Performance Metrics — Current vs. Target</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Metric</th><th>Current</th><th>Target</th><th>Marketing Lever</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">Monthly Facility Signings</td><td style="color:var(--mu)">~8</td><td style="color:var(--t);font-weight:700">25+</td><td style="font-size:10px">ABM leads + case studies + referral program</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Inbound vs. Outbound Mix</td><td style="color:var(--mu)">~10% inbound</td><td style="color:var(--t);font-weight:700">50% inbound</td><td style="font-size:10px">Content engine + SEO + LinkedIn ABM</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Avg Sales Cycle (Days)</td><td style="color:var(--mu)">~75 days</td><td style="color:var(--t);font-weight:700">&lt;45 days</td><td style="font-size:10px">Nurture sequences + outcomes data + case studies</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Pipeline Coverage Ratio</td><td style="color:var(--mu)">~2×</td><td style="color:var(--t);font-weight:700">4×</td><td style="font-size:10px">Marketing-generated MQLs + referral program</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Lead-to-Facility Conversion</td><td style="color:var(--mu)">Est. 12%</td><td style="color:var(--t);font-weight:700">25%+</td><td style="font-size:10px">Better qualified leads + sales enablement content</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Rep Quota Attainment</td><td style="color:var(--mu)">Est. 60%</td><td style="color:var(--t);font-weight:700">80%+</td><td style="font-size:10px">Marketing-sourced pipeline + collateral quality</td></tr>
+    </tbody></table></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--g);margin-bottom:22px">
+    <div class="ctit" style="color:var(--g)">Sales Enablement — What Marketing Builds for the Team</div>
+    <div class="content-grid">
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--t)">◆</span><span class="cc-tag">Immediate</span></div><div class="cc-nm">One-Page Specialty Sell Sheets</div><p class="cc-desc">Optometry, Podiatry, and Dermatology leave-behinds — each showing the VBP outcome, the resident benefit, and the administrator's life made easier. Designed for a 5-minute meeting.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--b)">◈</span><span class="cc-tag">Q3 2025</span></div><div class="cc-nm">ROI Calculator Deck</div><p class="cc-desc">Custom slide rep can fill in on the spot: facility bed count → CMS withhold exposure → projected recovery with MedServ. Makes the financial case in under 3 minutes.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--g)">◉</span><span class="cc-tag">Q3 2025</span></div><div class="cc-nm">Centers Health Care Case Study</div><p class="cc-desc">The flagship proof point — verbatim testimonial, outcome data, before/after. Every rep leads with this. Printed, digital, and video versions for different meeting contexts.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--pk)">◐</span><span class="cc-tag">Q4 2025</span></div><div class="cc-nm">Competitive Battle Cards</div><p class="cc-desc">One-page reference for reps: how to respond when a facility says "we use a local podiatrist" or "we're evaluating a telehealth vendor." Concise, confident, factual.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--v)">◇</span><span class="cc-tag">Q4 2025</span></div><div class="cc-nm">Email Sequence Library</div><p class="cc-desc">10-email prospecting and follow-up sequences for every buyer persona — Administrator, DON, CFO, and multi-site VP Ops. Personalized by specialty and facility type.</p></div>
+      <div class="content-c"><div class="cc-top"><span class="cc-icon" style="color:var(--t)">◆</span><span class="cc-tag">Ongoing</span></div><div class="cc-nm">Monthly Outcomes Brief</div><p class="cc-desc">One-page "what we prevented this month" summary — falls avoided, transfers eliminated, readmissions reduced. Reps send to prospects and clients to reinforce value continuously.</p></div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">Sales Hiring Priorities</div>
+    <div class="hire-grid">
+      <div class="hire"><div class="hiret"><div class="hiren">Regional Sales Directors (×4)</div><div class="hirew" style="color:var(--t);background:rgba(45,191,138,.12);border:1px solid rgba(45,191,138,.3)">Phase I</div></div><p class="hired">NE, SE, Midwest, and West territories. Own facility acquisition targets per region. LTC sales experience required — preferably from clinical services or specialty care vendors.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Account Executives (×8–12)</div><div class="hirew" style="color:var(--b);background:rgba(59,125,216,.12);border:1px solid rgba(59,125,216,.3)">Phase I–II</div></div><p class="hired">Front-line facility relationship builders. Target: former SNF/ALF administrators, healthcare staffing reps, or managed care sales. Empathy + financial fluency required.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Corporate Account Manager</div><div class="hirew" style="color:var(--g);background:rgba(232,168,59,.12);border:1px solid rgba(232,168,59,.3)">Phase I</div></div><p class="hired">Dedicated to multi-facility operators and corporate chains like Centers Health Care. One rep owning portfolio-level relationships = exponential facility growth per deal.</p></div>
+      <div class="hire"><div class="hiret"><div class="hiren">Sales Operations Manager</div><div class="hirew" style="color:var(--pk);background:rgba(212,92,140,.12);border:1px solid rgba(212,92,140,.3)">Immediate</div></div><p class="hired">CRM (Salesforce/HubSpot) admin, pipeline reporting, quota modeling, and comp plan design. The CMO's commercial analytics partner — ties every marketing dollar to signed contracts.</p></div>
+    </div>
+  </div>
+
+  <div style="background:linear-gradient(135deg,#07223A,#03080F);border:1px solid var(--br);border-radius:12px;padding:22px 28px">
+    <div style="font-family:'JetBrains Mono',monospace;font-size:9px;letter-spacing:.18em;color:var(--g);margin-bottom:14px">SALES + MARKETING COMPENSATION ALIGNMENT</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:14px">
+      <div style="border-left:2px solid var(--t);padding-left:12px"><div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--t);margin-bottom:4px;letter-spacing:.07em">MARKETING MQL BONUS</div><div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--tx);margin-bottom:4px">Per MQL</div><p style="font-size:11px;color:var(--mu);line-height:1.5">Marketing team earns bonuses tied to MQL quality — % that convert to signed facilities. Aligns marketing and sales on lead quality, not just volume.</p></div>
+      <div style="border-left:2px solid var(--b);padding-left:12px"><div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--b);margin-bottom:4px;letter-spacing:.07em">SALES ACCELERATORS</div><div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--tx);margin-bottom:4px">1.5×–2×</div><p style="font-size:11px;color:var(--mu);line-height:1.5">Reps who exceed facility acquisition quota earn accelerated commission. President's Club for top 15% of performers — celebrated loudly at all-hands.</p></div>
+      <div style="border-left:2px solid var(--g);padding-left:12px"><div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--g);margin-bottom:4px;letter-spacing:.07em">MULTI-SPECIALTY BONUS</div><div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--tx);margin-bottom:4px">All 3</div><p style="font-size:11px;color:var(--mu);line-height:1.5">Additional incentive when a rep signs a facility for all three specialties (optometry + podiatry + dermatology). Drives LTV and reduces competitive surface area.</p></div>
+      <div style="border-left:2px solid var(--v);padding-left:12px"><div style="font-family:'JetBrains Mono',monospace;font-size:8px;color:var(--v);margin-bottom:4px;letter-spacing:.07em">REFERRAL BONUS</div><div style="font-family:'Cormorant Garamond',serif;font-size:20px;font-weight:700;color:var(--tx);margin-bottom:4px">Per intro</div><p style="font-size:11px;color:var(--mu);line-height:1.5">Account Executives and existing facility contacts earn a referral bonus for every new facility introduction that converts. Turns 450 partners into a sales network.</p></div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- ═══ LIVE M&A ═══ -->
+<div id="pg-acq" class="pg" style="padding-top:58px">
+<div class="wrap">
+  <div class="ey">Strategic Acquisitions — Live Market Intelligence</div>
+  <h2>Current Targets &amp; Active Deal Flow</h2>
+  <p class="sub">Real-time acquisition intelligence sourced from active M&A deal flow, broker listings, and market signals as of April 2026. Each target evaluated against MedServ's clinical, geographic, and strategic fit criteria — with a marketing lens on how each acquisition accelerates brand reach and facility growth.</p>
+
+  <div class="pulse-bar">
+    <div style="display:flex;align-items:center;gap:8px"><div class="pdot"></div><span class="plbl">DEAL MARKET: HIGHLY ACTIVE</span></div>
+    <div class="pstats">
+      <div class="pi"><div class="pl">Q1 2026 LTC TRANSACTIONS</div><div class="pv">22 announced — highest Q1 in 5 years</div></div>
+      <div class="pi"><div class="pl">SPECIALTY CARE M&A</div><div class="pv">Fragmented market — consolidation accelerating</div></div>
+      <div class="pi"><div class="pl">MEDSERV OPPORTUNITY</div><div class="pv">Add specialties, states, and distribution channels</div></div>
+    </div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--t);margin-bottom:22px">
+    <div class="ctit" style="color:var(--t)">Tier 1 — Immediate Opportunities (Active Deal Flow)</div>
+    <div style="font-size:10px;color:var(--mu);margin-bottom:16px;padding:8px 12px;background:rgba(45,191,138,.05);border:1px solid rgba(45,191,138,.18);border-radius:6px">These transactions are currently in active market processes or represent immediate white space created by recent closings. MedServ should evaluate within 60 days.</div>
+    <div id="t1-el"></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--b);margin-bottom:22px">
+    <div class="ctit" style="color:var(--b)">Tier 2 — Strategic Watch List (6–18 Month Horizon)</div>
+    <div style="font-size:10px;color:var(--mu);margin-bottom:16px;padding:8px 12px;background:rgba(59,125,216,.05);border:1px solid rgba(59,125,216,.18);border-radius:6px">Active market segments with deal flow and fragmentation that aligns with MedServ's expansion priorities across specialties, geographies, and distribution channels.</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:12px" id="t2-el"></div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--g);margin-bottom:22px">
+    <div class="ctit" style="color:var(--g)">M&A Valuation Benchmarks — Specialty Care & LTC Services</div>
+    <div style="overflow-x:auto"><table><thead><tr><th>Asset Type</th><th>EBITDA Multiple</th><th>Rev. Multiple</th><th>Market Signal</th><th>MedServ Strategic Fit</th></tr></thead><tbody>
+      <tr><td style="font-weight:600;color:var(--tx)">On-Site Specialty Practice Group</td><td style="color:var(--g);font-weight:700">5×–8×</td><td style="color:var(--b)">0.6×–1.0× rev</td><td style="font-size:10px">Highly fragmented; boutique brokers active nationally</td><td style="font-size:10px;color:#c5d8e8">Add 4th specialty (audiology, wound care, psychiatry)</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Regional LTC Specialty Vendor</td><td style="color:var(--g);font-weight:700">4×–7×</td><td style="color:var(--b)">0.5×–0.8× rev</td><td style="font-size:10px">PE exit cycle; aging founder-owned businesses</td><td style="font-size:10px;color:#c5d8e8">Immediate facility count growth + regional density</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Telehealth / Virtual Care Platform</td><td style="color:var(--g);font-weight:700">6×–10×</td><td style="color:var(--b)">2×–4× rev</td><td style="font-size:10px">Post-pandemic normalization; LTC-focused platforms emerging</td><td style="font-size:10px;color:#c5d8e8">Accelerates MedServ TeleVisits platform and rural coverage</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">SNF / ALF Management Company</td><td style="color:var(--g);font-weight:700">8×–12×</td><td style="color:var(--b)">0.8×–1.2× rev</td><td style="font-size:10px">Active operator consolidation; PE platforms scaling</td><td style="font-size:10px;color:#c5d8e8">Captive facility network — guaranteed distribution for MedServ</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">LTC Health IT / Analytics</td><td style="color:var(--g);font-weight:700">8×–15×</td><td style="color:var(--b)">3×–6× rev</td><td style="font-size:10px">AI/analytics premium emerging; PE interest high</td><td style="font-size:10px;color:#c5d8e8">Outcomes documentation platform — VBP reporting moat</td></tr>
+      <tr><td style="font-weight:600;color:var(--tx)">Dental Services Platform (Expand DentServ)</td><td style="color:var(--g);font-weight:700">5×–9×</td><td style="color:var(--b)">0.7×–1.1× rev</td><td style="font-size:10px">In-facility dental fragmented outside of DentServ's markets</td><td style="font-size:10px;color:#c5d8e8">Deepens "one partner" story — now four specialties</td></tr>
+    </tbody></table></div>
+    <div class="valsource">Sources: Synergy Business Brokers Q1 2026 · Mertz Taggart LTC M&A Report Q4 2025 · Kaufman Hall Q1 2026 · Skilled Nursing News Deal Tracker · Blueprint Healthcare Real Estate Transaction Reports</div>
+  </div>
+
+  <div class="card" style="border-top:2px solid var(--v);margin-bottom:22px">
+    <div class="ctit" style="color:var(--v)">Acquisition Evaluation Criteria — Marketing Lens</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px">
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px"><div style="font-size:11.5px;font-weight:600;color:var(--tx)">Facility Network Overlap</div><div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:700;color:var(--g)">25%</div></div><p style="font-size:11px;color:var(--mu);line-height:1.55">Target's existing facility relationships should overlap with or expand MedServ's 450+ partner base — instant distribution for new specialty or telehealth offering.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px"><div style="font-size:11.5px;font-weight:600;color:var(--tx)">Brand Compatibility</div><div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:700;color:var(--g)">20%</div></div><p style="font-size:11px;color:var(--mu);line-height:1.55">Clinical quality reputation and administrator trust score. A poor-quality acquisition damages MedServ's "The Specialist is in" brand promise — non-negotiable.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px"><div style="font-size:11.5px;font-weight:600;color:var(--tx)">Specialty Expansion</div><div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:700;color:var(--g)">20%</div></div><p style="font-size:11px;color:var(--mu);line-height:1.55">Does the acquisition add a 4th specialty (audiology, wound care, psychiatry, dental)? Each new line strengthens the "one partner" marketing story and increases LTV.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px"><div style="font-size:11.5px;font-weight:600;color:var(--tx)">Geographic Whitespace</div><div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:700;color:var(--g)">20%</div></div><p style="font-size:11px;color:var(--mu);line-height:1.55">Presence in states or regions where MedServ has low density — particularly the Midwest, Southwest, and Mountain West where facility coverage is thin.</p></div>
+      <div style="background:var(--sf);border:1px solid var(--br);border-radius:8px;padding:13px"><div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:7px"><div style="font-size:11.5px;font-weight:600;color:var(--tx)">Technology / Data Assets</div><div style="font-family:'Cormorant Garamond',serif;font-size:14px;font-weight:700;color:var(--g)">15%</div></div><p style="font-size:11px;color:var(--mu);line-height:1.55">Proprietary clinical data, VBP reporting tools, or outcomes tracking platforms that can accelerate MedServ's analytics and content marketing differentiation.</p></div>
+    </div>
+  </div>
+
+  <div class="action-dark">
+    <div class="albl">CMO M&A MARKETING ACTION PLAN — NEXT 90 DAYS</div>
+    <div class="agrid" id="acq-action-el"></div>
+  </div>
+</div>
+</div>
+
 <!-- ═══ ROADMAP ═══ -->
 <div id="pg-road" class="pg" style="padding-top:58px">
 <div class="wrap">
@@ -673,6 +845,56 @@ function buildRoad(){
   var ticks={color:'#6A90B0',font:{size:10}};
   new Chart(document.getElementById('roadChart'),{type:'line',data:{labels:['2025','2026','2027','2028','2029'],datasets:[{label:'Active Facilities',data:[450,560,700,850,1000],borderColor:'#2DBF8A',backgroundColor:'rgba(45,191,138,.1)',fill:true,tension:.4,pointBackgroundColor:'#2DBF8A',pointRadius:5,pointHoverRadius:8},{label:'Target',data:[450,580,720,880,1050],borderColor:'#3B7DD8',borderDash:[5,4],fill:false,tension:.4,pointRadius:0}]},options:{responsive:true,maintainAspectRatio:false,plugins:{legend:{labels:{color:'#6A90B0',font:{size:10},boxWidth:10}}},scales:{x:{grid:grid,ticks:ticks},y:{grid:grid,ticks:ticks}}}});
 }
-</script>
+var salesOrg=[
+  {role:'VP of Sales',rep:'CEO / CMO',scope:'Oversees all regional directors and corporate accounts; owns national facility acquisition targets and sales team culture',kpi:'Monthly facility signings + quota attainment across team',c:'#2DBF8A'},
+  {role:'Regional Sales Directors (×4)',rep:'VP of Sales',scope:'NE, SE, Midwest, West — each owns state-level facility acquisition targets and manages a team of AEs',kpi:'Facilities signed per region per quarter',c:'#3B7DD8'},
+  {role:'Account Executives (×8–12)',rep:'Regional Directors',scope:'Front-line facility relationship builders — prospecting, demos, contract close, and onboarding handoff to clinical ops',kpi:'New facilities signed + multi-specialty conversion rate',c:'#E8A83B'},
+  {role:'Corporate Account Manager',rep:'VP of Sales',scope:'Dedicated to multi-facility operators and corporate chains (Centers Health Care model) — portfolio-level contract strategy',kpi:'Corporate portfolio contracts + facilities per deal',c:'#D45C8C'},
+  {role:'Sales Operations Manager',rep:'CMO / VP Sales',scope:'CRM administration, pipeline reporting, quota modeling, compensation plan design, and marketing-to-sales attribution',kpi:'Pipeline accuracy; lead-to-facility conversion rate; rep ramp time',c:'#7B5CF0'}
+];
+var t1data=[
+  {nm:'Regional On-Site Optometry Group (Mid-Atlantic)',tp:'Specialty Practice — Optometry',st:'ACTIVELY MARKETED',sc:'#2DBF8A',det:'Independent optometry group serving 35+ SNF and ALF facilities across PA, MD, and NJ listed via Synergy Business Brokers. Founder-owned, 15-year history, strong administrator relationships. MedServ already serves some overlapping facilities.',sz:'$2M–$8M',bd:'35+ facilities',geo:'PA, MD, NJ',fit:'HIGH',roi:'Immediate facility count addition in existing MedServ markets. Bolt-on to existing optometry line — no new clinical infrastructure needed. Strong brand compatibility.',src:'Synergy Business Brokers / Q1 2026',c:'#2DBF8A'},
+  {nm:'LTC Wound Care & Dermatology Platform',tp:'Specialty Practice — Dermatology / Wound Care',st:'SEEKING ACQUIRER',sc:'#E8A83B',det:'Multi-state wound care and dermatology group serving 60+ SNF facilities across FL, GA, and SC. PDGM-aligned documentation, strong CMS outcomes data. Owner approaching retirement — actively seeking strategic buyer or merger partner.',sz:'$5M–$18M',bd:'60+ facilities',geo:'FL, GA, SC',fit:'HIGH',roi:'Expands MedServ\'s dermatology line into wound care — a massive unmet need in SNFs. Adds FL and SE density where MedServ is growing. Revenue-accretive from Day 1.',src:'Healthcare M&A Boutique / Broker Network Q1 2026',c:'#E8A83B'},
+  {nm:'SNF Telehealth Physician Platform',tp:'Telehealth — Physician Access',st:'GOING PRIVATE / PE EXIT',sc:'#3B7DD8',det:'LTC-focused telehealth platform providing physician access for SNF SOCs, recerts, and discharges — directly complementary to MedServ TeleVisits. PE-backed, exploring strategic sale or merger after 3-year hold. 80+ facility clients across 12 states.',sz:'$8M–$25M',bd:'80+ facilities',geo:'12 states',fit:'MEDIUM',roi:'Accelerates MedServ TeleVisits expansion by 18+ months. Provides physician network, technology platform, and facility relationships. Strengthens "one partner" brand story.',src:'Kaufman Hall / LTC Deal Tracker Q1 2026',c:'#3B7DD8'},
+  {nm:'Regional Podiatry Group (Midwest)',tp:'Specialty Practice — Podiatry',st:'ACTIVELY LISTED',sc:'#7B5CF0',det:'25-year independent podiatry practice serving 40+ nursing homes and ALFs across IL, WI, and IN. Synergy BB active listing April 2026. Strong diabetic foot care outcomes data, existing VBP documentation system.',sz:'$1.5M–$6M',bd:'40+ facilities',geo:'IL, WI, IN',fit:'HIGH',roi:'MedServ has minimal Midwest penetration. This acquisition delivers immediate regional density, an existing clinical team, and 40 warm facility relationships with zero cold outreach required.',src:'Synergy Business Brokers / April 2026 Listing',c:'#7B5CF0'}
+];
+var t2data=[
+  {nm:'Audiology / Hearing Care Group (SNF-focused)',sig:'No national on-site audiology vendor exists for LTC. Multiple independent audiologists serve SNFs regionally — ripe for consolidation. Hearing loss is the #1 undiagnosed condition in SNF residents.',sz:'$1M–$5M per group',why:"Adding audiology as MedServ's 4th specialty line makes the 'one partner' story even more powerful. It's a natural DentServ-style extension — no competitor owns this space nationally.",urg:'BUILD OR BUY — WIDE OPEN',c:'#2DBF8A'},
+  {nm:'Behavioral Health / Geriatric Psychiatry',sig:'Geri-psych is the fastest-growing unmet specialty need in SNFs. Several telehealth behavioral health groups with LTC focus are actively marketed (VA/MD listing via Synergy BB, Apr 2026).',sz:'$3M–$15M',why:"Psychiatric and psychological services align with MedServ's existing model and directly address SNF QAPI requirements. Massive whitespace — no dominant on-site provider exists.",urg:'ACTIVE LISTINGS — ACT NOW',c:'#7B5CF0'},
+  {nm:'LTC Outcomes Analytics Platform',sig:'PurpleLab acquired KAID Health (AI clinical analytics) Sept 2025. Several smaller SNF outcomes platforms remain independent. VBP documentation software market consolidating rapidly.',sz:'$5M–$20M',why:"A proprietary outcomes platform transforms MedServ from a service vendor into a data company — locking in facilities through insights and making the CMO's content marketing dramatically more powerful.",urg:'PIPELINE — 12 months',c:'#E8A83B'},
+  {nm:'Multi-Facility ALF / Memory Care Operator',sig:'Assisted living and memory care operators are growing rapidly. Acquiring or partnering with a 20–50 facility ALF operator gives MedServ a guaranteed distribution channel and demonstrates model in a new care setting.',sz:'$15M–$60M',why:"Captive facility network. Every MedServ specialty goes into every new acquisition immediately — zero sales cost per facility. Also generates a major content marketing case study.",urg:'MONITOR — 6–12 months',c:'#3B7DD8'},
+  {nm:'DentServ Geographic Expansion Targets',sig:'DentServ has 40+ years in in-facility dental but geographic concentration. Acquiring small dental groups in MedServ-dense states (FL, NY, NJ) extends the sister brand and opens doors for MedServ cross-selling.',sz:'$1M–$8M',why:"Every dental client is a potential MedServ client. Shared facility relationships = the most efficient customer acquisition channel in the portfolio.",urg:'ONGOING — OPPORTUNISTIC',c:'#D45C8C'},
+  {nm:'Home Health Agency (Companion Care)',sig:'Home health is adjacent to SNF/ALF care. MedServ\'s model (come to you, treat on-site) translates naturally to home-based care for discharged SNF residents. Post-Amedisys market has open slots.',sz:'$5M–$30M',why:"Extends MedServ's care continuum beyond the facility — residents who leave an SNF can still receive optometry, podiatry, and dermatology at home. New revenue stream, same clinical model.",urg:'MONITOR — 12–18 months',c:'#2DBF8A'}
+];
+var acqActions=[
+  {a:'Engage LTC M&A Advisor',det:'Retain a boutique healthcare M&A advisor (Synergy BB or Mertz Taggart) to run a buy-side search for on-site specialty groups in MedServ target markets. Brief them on optometry, podiatry, and audiology priorities.',due:'Week 1–2',c:'#2DBF8A'},
+  {a:'Contact Mid-Atlantic Optometry Group',det:'The PA/MD/NJ optometry group currently listed via Synergy BB overlaps directly with MedServ existing facilities. Initiate a preliminary conversation — NDA and management meeting within 30 days.',due:'Week 1–3',c:'#3B7DD8'},
+  {a:'Evaluate FL Wound Care Platform',det:'The FL/GA/SC wound care group is a direct bolt-on to MedServ Dermatology. Request financials and facility list. Prioritize diligence on CMS star ratings and documentation quality.',due:'Week 2–4',c:'#E8A83B'},
+  {a:'Research Audiology Whitespace',det:'Commission a market map: how many independent on-site audiologists serve SNFs nationally? Which states have the highest hearing loss prevalence in SNF populations? Present findings to CEO in 60 days.',due:'Week 3–6',c:'#7B5CF0'},
+  {a:'Build M&A Deal Tracker in CRM',det:'All acquisition targets logged in Salesforce with deal status, contact info, estimated size, MedServ fit score, and marketing impact rating. CMO reviews with CEO monthly.',due:'Week 3–5',c:'#D45C8C'},
+  {a:'Telehealth Platform Due Diligence',det:"Review the PE-backed LTC telehealth platform's financials and facility overlap with MedServ. Evaluate whether a strategic partnership (vs. acquisition) achieves the same TeleVisits acceleration at lower cost.",due:'Q3 2026',c:'#2DBF8A'}
+];
+
+(function(){
+  var el=document.getElementById('sales-org-el');
+  if(!el)return;
+  salesOrg.forEach(function(r){el.innerHTML+='<div class="org-row" style="border-left:3px solid '+r.c+'"><div><div class="orole">'+r.role+'</div><div class="orep" style="color:'+r.c+'">REPORTS TO: '+r.rep.toUpperCase()+'</div></div><div class="oscope">'+r.scope+'</div><div class="okpi" style="background:'+r.c+'14;border:1px solid '+r.c+'28"><div class="okl" style="color:'+r.c+'">PRIMARY KPI</div><div class="okv">'+r.kpi+'</div></div></div>';});
+})();
+(function(){
+  var el=document.getElementById('t1-el');
+  if(!el)return;
+  t1data.forEach(function(t){el.innerHTML+='<div class="deal-card" style="border-left:3px solid '+t.c+'"><div class="dh"><div><div class="dn">'+t.nm+' <span style="font-family:\'JetBrains Mono\',monospace;font-size:8px;letter-spacing:.07em;border-radius:3px;padding:2px 7px;background:'+t.sc+'18;border:1px solid '+t.sc+'35;color:'+t.sc+';margin-left:8px">'+t.st+'</span></div><div class="dt" style="color:'+t.c+'">'+t.tp+'</div></div><div class="dmeta"><div class="dchip"><div class="dcl">DEAL SIZE</div><div class="dcv">'+t.sz+'</div></div><div class="dchip"><div class="dcl">SCALE</div><div class="dcv">'+t.bd+'</div></div><div class="dchip"><div class="dcl">GEOGRAPHY</div><div class="dcv">'+t.geo+'</div></div></div></div><div class="db"><div><div class="dilbl">DEAL INTELLIGENCE</div><p class="ditxt">'+t.det+'</p><div class="dsrc">Source: '+t.src+'</div></div><div><div class="droilbl">MEDSERV STRATEGIC &amp; MARKETING ROI</div><p class="ditxt" style="color:#c5d8e8">'+t.roi+'</p><br><span style="font-family:\'JetBrains Mono\',monospace;font-size:8px;letter-spacing:.07em;border-radius:3px;padding:3px 8px;'+(t.fit==='HIGH'?'background:rgba(45,191,138,.1);border:1px solid rgba(45,191,138,.35);color:#2DBF8A':'background:rgba(59,125,216,.1);border:1px solid rgba(59,125,216,.35);color:#3B7DD8')+'">'+t.fit+' FIT</span></div></div></div>';});
+})();
+(function(){
+  var el=document.getElementById('t2-el');
+  if(!el)return;
+  t2data.forEach(function(t){el.innerHTML+='<div class="watching" style="border-top:2px solid '+t.c+'"><div class="wt"><div class="wn">'+t.nm+'</div><div class="wu" style="color:'+t.c+';background:'+t.c+'14;border:1px solid '+t.c+'30">'+t.urg+'</div></div><div class="wsz" style="color:'+t.c+'">Est. Size: '+t.sz+'</div><p class="wsig"><span>Market Signal: </span>'+t.sig+'</p><p class="wwhy"><span>MedServ Fit: </span>'+t.why+'</p></div>';});
+})();
+(function(){
+  var el=document.getElementById('acq-action-el');
+  if(!el)return;
+  acqActions.forEach(function(a){el.innerHTML+='<div class="acard" style="border-left:3px solid '+a.c+'"><div class="atop"><div class="anm">'+a.a+'</div><div class="adu" style="color:'+a.c+'">'+a.due+'</div></div><p class="adsc">'+a.det+'</p></div>';});
+})();
+
 </body>
 </html>
